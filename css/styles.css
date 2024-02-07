@@ -505,3 +505,15 @@ margin-bottom: 16px;
 .footer__icon{
     fill: #f4f4fd;
 }
+.back-drop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(46, 47, 66, 0.40);
+    display: none;
+}
+.back-drop.is-open{
+    display: block;
+}
