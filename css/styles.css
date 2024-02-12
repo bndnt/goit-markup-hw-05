@@ -1,4 +1,4 @@
-  svg use svg{
+svg use svg{
     width: 100%;
     height: auto;
   }
@@ -59,10 +59,6 @@ ul, ul li {
 
 img {
     display: block;
-}
-
-address {
-    font-style: normal;
 }
 
 /* Form */
@@ -234,21 +230,27 @@ position: relative;
 
 .head-info__li{
 margin-right: 40px;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .head-info__li:last-child{
     margin-right: 0;
 }
+.head__info{
+    font-style: normal;
+    margin-left: auto;
+}
+
 .head-info__link{
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 150% */
+line-height: 150%; 
 letter-spacing: 0.32px;
 transition: all .4s;
 color: #434455;
 display: inline-block;
-transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .head-info__link:hover,
 .head-info__link:focus {
@@ -272,7 +274,7 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 700;
     line-height: 107.143%;
     letter-spacing: 1.12px;
-    margin-bottom: 48px;
+    margin: 0 auto 48px;
     text-align: center;
     max-width: 496px;
 }
@@ -289,6 +291,7 @@ transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.64px;
     border-radius: 4px;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    margin: 0 auto;
 }
 .advertisement__btn:hover,
 .advertisement__btn:focus{
@@ -365,6 +368,7 @@ color: #2e2f42;
 .team__occupation{
     letter-spacing: 0.02em;
     text-align: center; 
+    margin-bottom: 8px;
 }
 .team__soc-list{
     display: flex;
@@ -424,7 +428,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
 }
-.portfolio__list-top-cover:hover .portfolio__hidden-p{
+.portfolio__list:hover .portfolio__hidden-p{
     transform: translateY(0%);
 }
 .portfolio__hidden-p{
@@ -473,7 +477,7 @@ letter-spacing: 0.32px;
 }
 .footer__logo{
     display: inline-block;
-    margin-bottom: 16px;
+    margin: 0 0 16px;
 }
 .footer__info{
     max-width: 264px;
