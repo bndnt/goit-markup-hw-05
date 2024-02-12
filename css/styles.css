@@ -607,6 +607,9 @@ margin-bottom: 16px;
 .popup__form-input:focus{
     border-color: #4D5AE5; 
 }
+.popup__form-input:focus + svg{
+    fill: #4D5AE5; 
+}
 .popup__form-input:focus + .popup__form-input-svg svg{
     fill: #4D5AE5; 
 }
