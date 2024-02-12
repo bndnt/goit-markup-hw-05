@@ -608,10 +608,10 @@ margin-bottom: 16px;
         border-color: #4D5AE5; 
 
 }
-.popup__form-input:focus .popup__form-input-svg svg{
+.popup__form-input:focus + .popup__form-input-svg svg{
     fill: #4D5AE5; 
 }
-.popup__form-input-cover:focus .popup__form-input-svg{
+.popup__form-input-cover:focus + .popup__form-input-svg{
     fill: #4D5AE5; 
 }
 .popup__form-input-svg{
