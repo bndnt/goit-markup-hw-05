@@ -631,12 +631,14 @@ margin-bottom: 16px;
 border-radius: 4px;
 height: 120px;
 font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17; 
 letter-spacing: 0.04em;
 color: rgba(46, 47, 66, 0.4);
 background-color: transparent;
 resize: none;
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+padding: 8px 16px; 
+outline: transparent;
 }
 .popup__form-texarea:focus{
     border-color: #4D5AE5;
@@ -647,7 +649,7 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .popup__form-checkblock-input{
     
 }
-.popup__form-checkblock-input:checked .popup__form-checkblock-span{
+.popup__form-checkblock-input:checked + .popup__form-label .popup__form-checkblock-span{
 background-color: #404bbf;
 border: none; 
 fill: #F4F4FD;
@@ -664,7 +666,8 @@ fill: #F4F4FD;
     fill: transparent; 
 }
 .popup__form-checkblock-svg{
-
+position: relative;
+z-index: 1;
 }
 .popup__form-check-link{
     color: #4d5ae5;
