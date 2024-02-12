@@ -539,6 +539,7 @@ margin-bottom: 16px;
     padding: 72px 24px 24px 24px;
 }
 .popup__close{
+    padding: 0;
     position: absolute;
     background-color: #E7E9FC;
     top: 24px; 
