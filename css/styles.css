@@ -485,9 +485,13 @@ letter-spacing: 0.32px;
 .footer__flex{
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 .footer__info-cover{
     margin-right: 120px;
+}
+.footer__contacts{
+    /* margin-right: 25px; */
 }
 .footer__contacts-text{
 color:  #FFF;
@@ -497,7 +501,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 16px;
+margin: 16px;
+
 }
 .footer__soc-list{
     gap: 16px;
