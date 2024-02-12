@@ -611,6 +611,9 @@ margin-bottom: 16px;
 .popup__form-input:focus .popup__form-input-svg svg{
     fill: #4D5AE5; 
 }
+.popup__form-input-cover:focus .popup__form-input-svg{
+    fill: #4D5AE5; 
+}
 .popup__form-input-svg{
     position: absolute;
     left: 16px;
