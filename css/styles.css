@@ -729,6 +729,7 @@ fill: #F4F4FD;
     align-items: center; 
     justify-content: center;
     fill: transparent; 
+    margin-right: 8px;
 }
 .popup__form-checkblock-svg{
 position: relative;
